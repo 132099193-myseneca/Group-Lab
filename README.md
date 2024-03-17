@@ -15,4 +15,4 @@ Adil Reza Khan: He wrote the code for the game and created the flow chart to sho
 Gautam Chauhan: He did the two iterations and the testing of the game as well.
 
 ## Design
-
+![Diagram](https://github.com/132099193-myseneca/Group-Lab/blob/main/Untitled%20Diagram.drawio.png)
