@@ -1,0 +1,23 @@
+import random
+
+while True:
+    options = ["rock", "paper", "scissors"]
+    userOption = input("Enter your choice (rock, paper, scissors), or 'quit' to exit: ").lower()
+
+    if userOption == 'quit':
+        print("Thanks for playing. Goodbye!")
+        break
+
+    computerOption = random.choice(options)
+
+    print("Your choice:", userOption)
+    print("Computer's choice:", computerOption)
+
+    if userOption == computerOption:
+        print("It's a tie!")
+    elif (userOption == "rock" and computerOption == "scissors") or \
+            (userOption == "paper" and computerOption == "rock") or \
+            (userOption == "scissors" and computerOption == "paper"):
+        print("You win!")
+    else:
+        print("Computer wins!")
